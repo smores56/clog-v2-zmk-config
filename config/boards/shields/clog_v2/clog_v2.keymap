@@ -130,10 +130,10 @@
 
         FN_layer {
             bindings = <
-                            &kp F7 &kp F8 &kp F9 &kp F10      &none  &kp C_BRI_DN &kp C_BRI_UP &none
-            &none &none     &kp F1 &kp F2 &kp F3 &kp F11      &none  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-                  &kp PSCRN &kp F4 &kp F5 &kp F6 &kp F12      &none  &bt BT_CLR   &none        &none        &none
-                                   &trans &trans &trans       &trans &trans       &trans
+                              &kp F7 &kp F8 &kp F9 &kp F10      &none  &kp C_BRI_DN &kp C_BRI_UP &none
+            &reset &bt BT_CLR &kp F1 &kp F2 &kp F3 &kp F11      &none  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR &reset
+                   &kp PSCRN  &kp F4 &kp F5 &kp F6 &kp F12      &none  &none        &bt BT_SEL 3 &bt BT_SEL 4 &none
+                                     &trans &trans &trans       &trans &trans       &trans
             >;
 
 			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
